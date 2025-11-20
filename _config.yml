@@ -1,0 +1,36 @@
+title: "Surabhi Misra"
+description: "ASIC Design Engineer | Hardware Security | RTL, Trojans, Logic Locking"
+baseurl: ""
+url: "https://surabhimisra.github.io"
+
+# Theme (simple and clean)
+theme: jekyll-theme-minimal
+
+# Navigation links (used by some themes)
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Blog"
+    url: "/blog"
+  - title: "Projects"
+    url: "/projects"
+
+# Markdown options
+markdown: kramdown
+highlighter: rouge
+
+# Permalinks for clean URLs
+permalink: /:title/
+
+# Exclude system files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Optional social links (can appear on the page depending on theme)
+social_links:
+  github: "surabhimisra"
+  linkedin: "surabhi-misra"
