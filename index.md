@@ -106,5 +106,6 @@ title: "Home"
       <!-- Add email or other links if/when you’re comfortable -->
     </ul>
   </section>
-
+```html
+<p><a href="/logic-locking-guide.html">Read the Logic Locking Technical Guide</a></p>
 </div>
