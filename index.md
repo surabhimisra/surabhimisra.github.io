@@ -63,7 +63,7 @@ title: "Home"
     <h2 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Writing</h2>
     <p style="font-size: 0.98rem; line-height: 1.6; max-width: 650px;">
       <p>
-  <a href="/logic-locking-guide.html">Read the Logic Locking Technical Guide</a>
+  <a href="/logic-locking-guide">Read the Logic Locking Technical Guide</a>
 </p>
       I use this site as a place to collect notes, tutorials, and experiments related to ASIC design and hardware security.
       Over time, I’ll publish:
