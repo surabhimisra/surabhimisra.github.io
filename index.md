@@ -11,8 +11,7 @@ title: "Home"
       Hi, I’m Surabhi.
     </h1>
     <p style="font-size: 1.05rem; line-height: 1.6; max-width: 650px;">
-      I’m an ASIC Design Engineer working on high-speed networking silicon and exploring hardware security —
-      especially hardware Trojans, logic locking, and security-aware RTL design.
+      I’m an ASIC Design Engineer working on high-speed networking silicon and exploring hardware security.Especially hardware Trojans, logic locking, and security-aware RTL design.
     </p>
   </section>
 
