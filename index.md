@@ -101,7 +101,7 @@ title: "Home"
   </ul>
 
   <p style="font-size: 0.95rem; margin-top: 0.8rem;">
-    I also publish on Medium when I write longer posts.
+    I also publish on [Medium](https://medium.com/@surabhi.misra30) when I write longer posts.
   </p>
 </section>
 
