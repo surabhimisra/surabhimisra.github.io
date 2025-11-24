@@ -50,4 +50,12 @@ Slides and recap will be added after the session.
 
 ---
 
+
+## GHC 2026 Proposal
+
+You can read my proposed session for GHC 2026 here:  
+👉 [GHC 2026 Talk Page](/ghc2026)
+
+---
+
 More talks and recordings will be added as I continue sharing technical and career learning material.
