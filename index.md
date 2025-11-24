@@ -100,9 +100,9 @@ title: "Home"
     <li>Notes on ASIC careers and early engineering growth.</li>
   </ul>
 
-  <p style="font-size: 0.95rem; margin-top: 0.8rem;">
-    I also publish on [Medium](https://medium.com/@surabhi.misra30) when I write longer posts.
-  </p>
+ <p style="font-size: 0.95rem; margin-top: 0.8rem;">
+  I also publish on <a href="https://medium.com/@surabhi.misra30" target="_blank" style="text-decoration: underline;">Medium</a> when I write longer posts.
+</p>
 </section>
 
 
