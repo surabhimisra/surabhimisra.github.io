@@ -43,22 +43,22 @@ If Key[0] is one, the output is flipped and downstream behavior is corrupted.
 
 Even this small modification breaks straightforward cloning and reverse engineering.
 
-##4. Structural Impact of Locking
+## 4. Structural Impact of Locking
 
-###Adding locking logic affects several structural properties of the netlist:
+### Adding locking logic affects several structural properties of the netlist:
 
   1. fan out of selected signals
   2. depth of some logic cones
   3. switching patterns on internal nodes
   4. placement of new gates in critical or non critical paths
 
-###These structural changes:
+### These structural changes:
 
   1. make reverse engineering harder
   2. change where an attacker might try to insert a Trojan
   3. can be used as additional signals in detection
 
-##5. How Locking Helps Detect Hardware Trojans
+## 5. How Locking Helps Detect Hardware Trojans
 
 Hardware Trojans often rely on:
   - rare internal trigger conditions
@@ -75,7 +75,7 @@ Locking can:
 
 When combined with switching activity localization or power analysis, this improves Trojan detectability.
 
-##6. Power Analysis Overview
+## 6. Power Analysis Overview
 
 Power based detection uses the fact that Trojans cause small but measurable changes in switching activity.
 
@@ -95,7 +95,7 @@ Typical analysis flow:
   5. Compare traces across test vectors
   6. Localize suspicious regions or time windows
 
-##7. MUX Based Lock Example
+## 7. MUX Based Lock Example
 
 To avoid simple attacks that target XOR structures, many schemes use MUX based locking.
 
@@ -114,7 +114,7 @@ Properties of MUX based locking:
   2. creates more structural ambiguity
   3. can be aligned with existing multiplexed datapaths
 
-##8. SAT Attack Notes
+## 8. SAT Attack Notes
 
 SAT attacks try to recover the secret key by generating discriminating input patterns that eliminate incorrect keys.
 
@@ -133,7 +133,7 @@ Basic idea:
 
 The goal is to make the search space and solver effort impractical.
 
-##9. RTL Example of a Locked Module
+## 9. RTL Example of a Locked Module
 
 Below is a small example that shows how key bits can corrupt internal nodes.
 
@@ -158,7 +158,7 @@ This design:
   - corrupts the output for incorrect keys
   - introduces new logic cones and switching patterns
 
-##10. Engineering Guidelines for Logic Locking
+## 10. Engineering Guidelines for Logic Locking
 
 Some practical guidelines when applying locking in real flows:
   1. distribute key gates across different blocks instead of clustering them
@@ -169,7 +169,7 @@ Some practical guidelines when applying locking in real flows:
   6. evaluate area, power, and timing overhead for each scheme
   7. test golden versus locked designs with realistic workloads
 
-##11. Tools and Frameworks
+## 11. Tools and Frameworks
 
 Common tools used for logic locking and evaluation include:
   1. Yosys for open source synthesis and simple flows
@@ -181,7 +181,7 @@ Common tools used for logic locking and evaluation include:
 
 These can be combined into reproducible experiments in a public GitHub repository.
 
-##12. Conclusion
+## 12. Conclusion
 
 Logic locking is a practical and flexible method for protecting integrated circuits built in untrusted environments. It raises the difficulty of cloning and reverse engineering and can improve hardware Trojan detection when combined with structural and power based analysis.
 
