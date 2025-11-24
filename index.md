@@ -1,3 +1,8 @@
+<div style="font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem;">
+  <span style="background:#f2f2f2; padding:4px 8px; border-radius:6px;">SM</span>
+  Surabhi Misra
+</div>
+
 ---
 layout: default
 title: "Home"
