@@ -3,7 +3,9 @@ theme: minima
 
 header_pages:
   - index.md
+  - about.md
   - talks.md
   - projects.md
   - writing.md
   - skills.md
+
