@@ -17,8 +17,6 @@ A simple explanation of hardware Trojans written for a general audience.
 
 ---
 
-# Writing
-
 Here are my technical guides and posts.
 
 ## Long form guide
