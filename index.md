@@ -3,14 +3,6 @@
 layout: default
 title: "Home"
 ---
-<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1.5rem;">
-  <div style="background: #f2f2f2; padding: 6px 10px; border-radius: 6px; font-weight: 600; font-size: 0.95rem;">
-    SM
-  </div>
-  <div style="font-size: 1.1rem; font-weight: 600;">
-    Surabhi Misra
-  </div>
-</div>
 
 <div style="max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem;">
 
