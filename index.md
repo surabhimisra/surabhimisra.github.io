@@ -8,7 +8,7 @@ title: "Home"
   <!-- Hero -->
   <section style="margin-bottom: 2.5rem;">
     <h1 style="font-size: 2.2rem; margin-bottom: 0.5rem;">
-      Hi, I’m Surabhi.
+      Hi, I’m Surabhi.  
     </h1>
     <p style="font-size: 1.05rem; line-height: 1.6; max-width: 650px;">
       I’m an ASIC Design Engineer working on high-speed networking silicon and exploring hardware security.Especially hardware Trojans, logic locking, and security-aware RTL design.
