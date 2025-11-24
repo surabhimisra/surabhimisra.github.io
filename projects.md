@@ -1,15 +1,16 @@
 ---
 layout: default
-title: "Projects"
-permalink: /projects/
+title: Projects
 ---
 
 # Projects
 
-### 🔐 Hardware Trojan Detection Experiments  
-Repo: <a href="https://github.com/surabhimisra/hardware-trojan-detection-experiments" target="_blank">hardware-trojan-detection-experiments</a>  
-A hands-on research project exploring RTL-level Trojans, logic locking, testbenches, waveforms, and experiment write-ups.
+## Hardware Trojan and Logic Locking Lab Series  
+Hands on experiments on Trojan insertion, logic locking using NEOS, and switching activity analysis.  
+Repo: https://github.com/surabhimisra/hardware-trojan-detection-experiments
 
----
+## GitHub Pages Portfolio  
+This website serves as my speaker and project portfolio.  
+Repo: https://github.com/surabhimisra/surabhimisra.github.io
 
-(More projects will be added soon.)
+More projects will be added soon.
