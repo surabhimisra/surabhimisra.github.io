@@ -17,11 +17,30 @@ A simple explanation of hardware Trojans written for a general audience.
 
 ---
 
-## A Technical Guide to Logic Locking for Chip Security  
-A beginner friendly explanation of logic locking, SAT attacks, and how secure RTL techniques work.  
-👉 Read the guide: [Logic Locking Guide](logic-locking-guide)
+# Writing
+
+Here are my technical guides and posts.
+
+## Long form guide
+
+- **A Technical Guide to Logic Locking for Chip Security**  
+  👉 Read the full guide: [Logic Locking Guide](/logic-locking-guide)
 
 ---
-More writing coming soon.  
+
+## All posts
+
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span style="font-size: 0.85rem; color: #666;">
+      ({{ post.date | date: "%b %-d, %Y" }})
+    </span>
+  </li>
+{% endfor %}
+</ul>
+
+More posts coming soon.
 You can find all posts on my Medium profile:  
 [Medium Blog](https://medium.com/@surabhi.misra30)
