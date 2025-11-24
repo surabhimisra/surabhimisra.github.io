@@ -6,7 +6,17 @@ title: Writing
 # Writing
 
 ## Logic Locking for Chip Security  
-[Beginner friendly introduction to logic locking](https://medium.com/@surabhi.misra30/a-simple-guide-to-logic-locking-for-chip-security-97c5da66b29c)
-[Explaining Hardware Torjan](https://medium.com/@surabhi.misra30/what-is-a-hardware-trojan-66c8fe66331e)
+A beginner friendly introduction to logic locking.  
+[Read the article](https://medium.com/@surabhi.misra30/a-simple-guide-to-logic-locking-for-chip-security-97c5da66b29c)
 
-More articles coming soon. All articles at [Medium Blog](https://medium.com/@surabhi.misra30)
+---
+
+## What Is a Hardware Trojan  
+A simple explanation of hardware Trojans written for a general audience.  
+[Read the article](https://medium.com/@surabhi.misra30/what-is-a-hardware-trojan-66c8fe66331e)
+
+---
+
+More writing coming soon.  
+You can find all posts on my Medium profile:  
+[Medium Blog](https://medium.com/@surabhi.misra30)
