@@ -24,7 +24,7 @@ title: "Home"
       <li>Designing and verifying RTL for networking ASICs.</li>
       <li>Building small, reproducible experiments for hardware Trojan behavior and detection.</li>
       <li>Using NEOS based logic locking on simple ISCAS circuits and observing switching activity.</li>
-      <li>Preparing talks and material on chip security for student groups and future conferences.</li>
+      <li>Preparing talks and material on chip security for student groups and future conferences. </li>
     </ul>
   </section>
 
