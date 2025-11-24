@@ -1,18 +1,19 @@
-
 ---
 layout: default
 title: "Home"
 ---
-<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1.5rem;">
-  <div style="background: #f2f2f2; padding: 6px 10px; border-radius: 6px; font-weight: 600; font-size: 0.95rem;">
-    SM
-  </div>
-  <div style="font-size: 1.1rem; font-weight: 600;">
-    Surabhi Misra
-  </div>
-</div>
 
 <div style="max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem;">
+
+  <!-- SM Logo + Name -->
+  <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1.5rem;">
+    <div style="background: #f2f2f2; padding: 6px 10px; border-radius: 6px; font-weight: 600; font-size: 0.95rem;">
+      SM
+    </div>
+    <div style="font-size: 1.1rem; font-weight: 600;">
+      Surabhi Misra
+    </div>
+  </div>
 
   <!-- Hero -->
   <section style="margin-bottom: 2.5rem;">
@@ -33,7 +34,7 @@ title: "Home"
       <li>Designing and verifying RTL for networking ASICs.</li>
       <li>Building small, reproducible experiments for hardware Trojan behavior and detection.</li>
       <li>Using NEOS based logic locking on simple ISCAS circuits and observing switching activity.</li>
-      <li>Preparing talks and material on chip security for student groups and future conferences. </li>
+      <li>Preparing talks and material on chip security for student groups and future conferences.</li>
     </ul>
   </section>
 
@@ -72,7 +73,7 @@ title: "Home"
       <li>Cisco internship summary and innovation challenge presentations.</li>
     </ul>
     <p style="font-size: 0.95rem; margin-top: 0.8rem;">
-      A full list of talks lives on the <a href="/talks.html">Talks page</a> once I finish adding everything.
+      A full list of talks lives on the <a href="/talks.html">Talks page</a>.
     </p>
   </section>
 
@@ -82,9 +83,11 @@ title: "Home"
     <p style="font-size: 0.98rem; line-height: 1.6; max-width: 650px;">
       I use this site as a place to collect notes, tutorials, and experiments related to ASIC design and hardware security.
     </p>
+
     <p style="font-size: 0.98rem; line-height: 1.6; max-width: 650px;">
-     [Read the Logic Locking Technical Guide](/logic-locking-guide)
+      <a href="/logic-locking-guide">Read the Logic Locking Technical Guide</a>
     </p>
+
     <ul style="line-height: 1.7; padding-left: 1.2rem;">
       <li>Short explainers on RTL concepts and verification.</li>
       <li>Walkthroughs of hardware Trojan experiments from my open source repo.</li>
