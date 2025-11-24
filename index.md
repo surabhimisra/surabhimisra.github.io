@@ -8,73 +8,82 @@ title: "Home"
   <!-- Hero -->
   <section style="margin-bottom: 2.5rem;">
     <h1 style="font-size: 2.2rem; margin-bottom: 0.5rem;">
-      Hi, I’m Surabhi.  
+      Hi, I am Surabhi.
     </h1>
     <p style="font-size: 1.05rem; line-height: 1.6; max-width: 650px;">
-      I’m an ASIC Design Engineer working on high-speed networking silicon and exploring hardware security.Especially hardware Trojans, logic locking, and security-aware RTL design.
+      I am an ASIC Design Engineer working on high speed networking silicon and exploring hardware security,
+      especially hardware Trojans, logic locking, and security aware RTL design. I like building small,
+      concrete experiments and sharing what I learn with students and early career engineers.
     </p>
   </section>
 
   <!-- Highlights -->
   <section style="margin-bottom: 2.5rem;">
-    <h2 style="font-size: 1.5rem; margin-bottom: 0.8rem;">What I’m working on</h2>
+    <h2 style="font-size: 1.5rem; margin-bottom: 0.8rem;">What I am working on</h2>
     <ul style="line-height: 1.7; padding-left: 1.2rem;">
       <li>Designing and verifying RTL for networking ASICs.</li>
       <li>Building small, reproducible experiments for hardware Trojan behavior and detection.</li>
-      <li>Writing about ASIC design, verification, and hardware security for early-career engineers.</li>
+      <li>Using NEOS based logic locking on simple ISCAS circuits and observing switching activity.</li>
+      <li>Preparing talks and material on chip security for student groups and future conferences.</li>
     </ul>
   </section>
 
   <!-- Featured Projects -->
   <section style="margin-bottom: 2.5rem;">
-    <h2 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Featured Projects</h2>
+    <h2 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Featured project</h2>
 
     <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 1rem 1.2rem; margin-bottom: 1rem;">
       <h3 style="margin-top: 0; margin-bottom: 0.3rem; font-size: 1.1rem;">
         <a href="https://github.com/surabhimisra/hardware-trojan-detection-experiments" target="_blank">
-          Hardware Trojan Detection Experiments
+          Hardware Trojan and Logic Locking Lab Series
         </a>
       </h3>
       <p style="margin: 0.2rem 0 0.5rem 0; font-size: 0.95rem; line-height: 1.5;">
-        A hands-on repository with RTL designs, Trojan-inserted variants, and experiments on rare-trigger Trojans,
-        logic locking, and security-aware design. Includes testbenches, waveforms, and experiment write-ups.
+        A hands on repository with baseline RTL designs, Trojan inserted variants, and experiments on rare trigger
+        Trojans, sequential triggers, logic locking, and basic switching activity observations. The goal is to give
+        students and early engineers simple entry points into chip security.
       </p>
       <p style="margin: 0; font-size: 0.9rem; color: #555;">
-        Tech: Verilog, Icarus Verilog, waveforms, hardware security experiments.
+        Tech: Verilog, Icarus Verilog, VCD waveforms, Python scripts, NEOS based logic locking.
       </p>
     </div>
+  </section>
 
-    <!-- You can add more cards like this later -->
-    <!--
-    <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 1rem 1.2rem; margin-bottom: 1rem;">
-      <h3 style="margin-top: 0; margin-bottom: 0.3rem; font-size: 1.1rem;">
-        <a href="#" target="_blank">Another Project</a>
-      </h3>
-      <p style="margin: 0.2rem 0 0.5rem 0; font-size: 0.95rem; line-height: 1.5;">
-        Short one-line description of what this project does and why it exists.
-      </p>
-    </div>
-    -->
+  <!-- Talks / Speaking -->
+  <section style="margin-bottom: 2.5rem;">
+    <h2 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Talks and speaking</h2>
+    <p style="font-size: 0.98rem; line-height: 1.6; max-width: 650px;">
+      I have presented technical topics in academic, industry, and community settings, including Cisco internal
+      presentations, USC course projects, and student events.
+    </p>
+    <ul style="line-height: 1.7; padding-left: 1.2rem; font-size: 0.96rem;">
+      <li>USC SWE guest session on moving from USC to an ASIC role and an introduction to chip security.</li>
+      <li>Logic locking and hardware Trojan project presentations during my masters at USC.</li>
+      <li>Architecture presentations on NoC and processor design, and other course projects.</li>
+      <li>Cisco internship summary and innovation challenge presentations.</li>
+    </ul>
+    <p style="font-size: 0.95rem; margin-top: 0.8rem;">
+      A full list of talks lives on the <a href="/talks.html">Talks page</a> once I finish adding everything.
+    </p>
   </section>
 
   <!-- Blog / Writing -->
   <section style="margin-bottom: 2.5rem;">
     <h2 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Writing</h2>
     <p style="font-size: 0.98rem; line-height: 1.6; max-width: 650px;">
-      <p>
-  <a href="/logic-locking-guide">Read the Logic Locking Technical Guide </a>
-</p>
       I use this site as a place to collect notes, tutorials, and experiments related to ASIC design and hardware security.
-      Over time, I’ll publish:
+    </p>
+    <p style="font-size: 0.98rem; line-height: 1.6; max-width: 650px;">
+      <a href="/logic-locking-guide">Read the Logic Locking technical guide</a>
     </p>
     <ul style="line-height: 1.7; padding-left: 1.2rem;">
       <li>Short explainers on RTL concepts and verification.</li>
-      <li>Walkthroughs of hardware Trojan experiments from my open-source repo.</li>
-      <li>Thoughts on early-career growth in semiconductor design.</li>
+      <li>Walkthroughs of hardware Trojan experiments from my open source repo.</li>
+      <li>Thoughts on early career growth in semiconductor design.</li>
     </ul>
 
     <p style="font-size: 0.95rem; margin-top: 0.8rem;">
-      Posts will live under the <code>Blog</code> section once I start publishing them.
+      Longer posts also appear on my Medium profile, and I will link them from the <code>Writing</code> page.
     </p>
   </section>
 
@@ -82,9 +91,10 @@ title: "Home"
   <section style="margin-bottom: 2.5rem;">
     <h2 style="font-size: 1.5rem; margin-bottom: 0.8rem;">About</h2>
     <p style="font-size: 0.98rem; line-height: 1.6; max-width: 700px;">
-      I work in ASIC design and verification for networking chips, and I’m especially interested in how we can make
-      hardware more trustworthy — from RTL all the way to silicon. In the past, I’ve worked on security-aware RTL design
-      for hardware Trojan mitigation as part of my graduate coursework and projects.
+      I work in ASIC design and verification for networking chips, and I am especially interested in how we can make
+      hardware more trustworthy from RTL all the way to silicon. During my masters at USC I worked on logic locking
+      and hardware Trojan concepts as part of my graduate coursework and projects, and I am now turning those ideas
+      into small, practical experiments and talks.
     </p>
   </section>
 
@@ -105,7 +115,6 @@ title: "Home"
           GitHub
         </a>
       </li>
-      <!-- Add email or other links if/when you’re comfortable -->
     </ul>
   </section>
 
