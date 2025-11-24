@@ -74,7 +74,7 @@ title: "Home"
       I use this site as a place to collect notes, tutorials, and experiments related to ASIC design and hardware security.
     </p>
     <p style="font-size: 0.98rem; line-height: 1.6; max-width: 650px;">
-      <a href="/logic-locking-guide">Read the Logic Locking technical guide</a>
+     [Read the Logic Locking Technical Guide](/logic-locking-guide)
     </p>
     <ul style="line-height: 1.7; padding-left: 1.2rem;">
       <li>Short explainers on RTL concepts and verification.</li>
@@ -92,7 +92,7 @@ title: "Home"
     <h2 style="font-size: 1.5rem; margin-bottom: 0.8rem;">About</h2>
     <p style="font-size: 0.98rem; line-height: 1.6; max-width: 700px;">
       I work in ASIC design and verification for networking chips, and I am especially interested in how we can make
-      hardware more trustworthy from RTL all the way to silicon. During my masters at USC I worked on logic locking
+      hardware more trustworthy, from RTL all the way to silicon. During my masters at USC I worked on logic locking
       and hardware Trojan concepts as part of my graduate coursework and projects, and I am now turning those ideas
       into small, practical experiments and talks.
     </p>
