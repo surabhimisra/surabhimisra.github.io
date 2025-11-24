@@ -6,7 +6,7 @@ title: "Home"
 <div style="max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem;">
 
   <!-- SM Logo + Name -->
-  <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1.5rem;">
+  <div style="display: flex; align-items: center; gap: 10px; margin: 2rem 0 1.5rem 0;">
     <div style="background: #f2f2f2; padding: 6px 10px; border-radius: 6px; font-weight: 600; font-size: 0.95rem;">
       SM
     </div>
@@ -17,7 +17,7 @@ title: "Home"
 
   <!-- Hero -->
   <section style="margin-bottom: 2.5rem;">
-    <h1 style="font-size: 2.2rem; margin-bottom: 0.5rem;">
+   <h1 style="font-size: 2rem; margin-bottom: 0.4rem;">
       Hi, I am Surabhi.
     </h1>
     <p style="font-size: 1.05rem; line-height: 1.6; max-width: 650px;">
