@@ -105,6 +105,28 @@ title: "Home"
 </p>
 </section>
 
+<section style="margin-bottom: 2.5rem;">
+  <h2 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Latest posts</h2>
+
+  <ul style="line-height: 1.7; padding-left: 1.2rem;">
+    {% for post in site.posts limit:3 %}
+      <li>
+        <a href="{{ post.url | relative_url }}" style="text-decoration: underline;">
+          {{ post.title }}
+        </a>
+        <span style="font-size: 0.85rem; color: #666;">
+          ({{ post.date | date: "%b %-d, %Y" }})
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p style="font-size: 0.95rem; margin-top: 0.8rem;">
+    See all posts on the <a href="/writing" style="text-decoration: underline;">Writing page</a>.
+  </p>
+</section>
+
+
 
   <!-- About / Background -->
   <section style="margin-bottom: 2.5rem;">
