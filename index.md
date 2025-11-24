@@ -79,25 +79,32 @@ title: "Home"
 
   <!-- Blog / Writing -->
   <section style="margin-bottom: 2.5rem;">
-    <h2 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Writing</h2>
-    <p style="font-size: 0.98rem; line-height: 1.6; max-width: 650px;">
-      I use this site as a place to collect notes, tutorials, and experiments related to ASIC design and hardware security.
-    </p>
+  <h2 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Writing</h2>
 
-    <p style="font-size: 0.98rem; line-height: 1.6; max-width: 650px;">
-      <a href="/logic-locking-guide">Read the Logic Locking Technical Guide</a>
-    </p>
+  <p style="font-size: 0.98rem; line-height: 1.6; max-width: 650px;">
+    I write short guides and explanations on hardware security, RTL concepts, and early career engineering topics.
+    You can find the full list on the 
+    <a href="/writing" style="text-decoration: underline;">Writing page</a>.
+  </p>
 
-    <ul style="line-height: 1.7; padding-left: 1.2rem;">
-      <li>Short explainers on RTL concepts and verification.</li>
-      <li>Walkthroughs of hardware Trojan experiments from my open source repo.</li>
-      <li>Thoughts on early career growth in semiconductor design.</li>
-    </ul>
+  <div style="margin-top: 1rem; font-size: 0.98rem; line-height: 1.6; max-width: 650px;">
+    <strong>Featured article:</strong><br>
+    <a href="/logic-locking-guide" style="text-decoration: underline;">
+      A Technical Guide to Logic Locking for Chip Security
+    </a>
+  </div>
 
-    <p style="font-size: 0.95rem; margin-top: 0.8rem;">
-      Longer posts also appear on my Medium profile, and I will link them from the <code>Writing</code> page.
-    </p>
-  </section>
+  <ul style="line-height: 1.7; padding-left: 1.2rem; margin-top: 1rem;">
+    <li>Short explainers on RTL design and verification.</li>
+    <li>Walkthroughs of hardware Trojan experiments from my open source repo.</li>
+    <li>Notes on ASIC careers and early engineering growth.</li>
+  </ul>
+
+  <p style="font-size: 0.95rem; margin-top: 0.8rem;">
+    I also publish on Medium when I write longer posts.
+  </p>
+</section>
+
 
   <!-- About / Background -->
   <section style="margin-bottom: 2.5rem;">
