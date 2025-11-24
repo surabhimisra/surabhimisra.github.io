@@ -60,22 +60,31 @@ title: "Home"
   </section>
 
   <!-- Talks / Speaking -->
-  <section style="margin-bottom: 2.5rem;">
-    <h2 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Talks and speaking</h2>
-    <p style="font-size: 0.98rem; line-height: 1.6; max-width: 650px;">
-      I have presented technical topics in academic, industry, and community settings, including Cisco internal
-      presentations, USC course projects, and student events.
-    </p>
-    <ul style="line-height: 1.7; padding-left: 1.2rem; font-size: 0.96rem;">
-      <li>USC SWE guest session on moving from USC to an ASIC role and an introduction to chip security.</li>
-      <li>Logic locking and hardware Trojan project presentations during my masters at USC.</li>
-      <li>Architecture presentations on NoC and processor design, and other course projects.</li>
-      <li>Cisco internship summary and innovation challenge presentations.</li>
-    </ul>
-    <p style="font-size: 0.95rem; margin-top: 0.8rem;">
-      A full list of talks lives on the <a href="/talks.html">Talks page</a>.
-    </p>
-  </section>
+ <section style="margin-bottom: 2.5rem;">
+  <h2 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Talks and speaking</h2>
+
+  <p style="font-size: 0.98rem; line-height: 1.6; max-width: 650px;">
+    I have presented technical topics in academic, industry, and community settings, including Cisco internal
+    presentations, USC course projects, and student events.
+  </p>
+
+  <ul style="line-height: 1.7; padding-left: 1.2rem; font-size: 0.96rem;">
+    <li>USC SWE guest session on moving from USC to an ASIC role and an introduction to chip security.</li>
+    <li>Logic locking and hardware Trojan project presentations during my masters at USC.</li>
+    <li>Architecture presentations on NoC and processor design, and other course projects.</li>
+    <li>Cisco internship summary and innovation challenge presentations.</li>
+  </ul>
+
+  <p style="font-size: 0.95rem; margin-top: 0.8rem;">
+    See all talks on the <a href="/talks" style="text-decoration: underline;">Talks page</a>.
+  </p>
+
+  <p style="font-size: 0.95rem; margin-top: 0.4rem;">
+    Read my GHC 2026 session proposal here:  
+    <a href="/ghc2026" style="text-decoration: underline;">GHC 2026 Talk</a>
+  </p>
+</section>
+
 
   <!-- Blog / Writing -->
   <section style="margin-bottom: 2.5rem;">
