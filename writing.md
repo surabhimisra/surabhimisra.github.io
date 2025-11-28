@@ -40,7 +40,7 @@ A collection of my articles and notes on ASIC design, hardware security, and ear
 👉 <a href="/logic-locking-guide" target="_blank">Read the guide</a>
 
 **Research Paper Summaries**  
-👉 <a href="/papers/" target="_blank">View summaries</a>
+👉 <a href="/paper-summaries/" target="_blank">View summaries</a>
 
 ---
 
