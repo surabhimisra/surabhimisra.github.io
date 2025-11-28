@@ -80,7 +80,9 @@ The paper outlines insertion points across the chip design flow:
 - At layout (GDSII)  
 - During mask generation  
 - At fabrication  
-- Through untrusted third-party IP  
+- Through untrusted third-party IP
+
+![HWT can be inserted anywhere](/images/HWT-can-be-into-anywhere.jpg)
 
 This is important because detection depends on where the Trojan was inserted.
 
