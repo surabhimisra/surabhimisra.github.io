@@ -16,6 +16,8 @@ As semiconductor manufacturing becomes more global, securing the design and fabr
 
 Logic locking introduces key controlled gates into an ASIC so the chip works correctly only when the correct key is applied. It protects IP and increases the difficulty of malicious modification.
 
+![HWT can be inserted anywhere](/images/Locked-Circuit.jpg)
+
 ---
 
 ## 2. What is Logic Locking
@@ -40,6 +42,8 @@ assign Y = A ^ B;
 
 If Key[0] is zero, the circuit behaves normally.
 If Key[0] is one, the output is flipped and downstream behavior is corrupted.
+
+![HWT can be inserted anywhere](/images/LL-circuit-example.jpg)
 
 Even this small modification breaks straightforward cloning and reverse engineering.
 
@@ -66,6 +70,8 @@ Hardware Trojans often rely on:
   - payloads that blend into existing logic
   - predictable and stable structure
   - Logic locking disrupts these assumptions.
+
+![HWT can be inserted anywhere](/images/How-LL-Protects-Chips.jpg)
 
 Locking can:
   - increase switching entropy around key controlled regions
@@ -168,6 +174,8 @@ Some practical guidelines when applying locking in real flows:
   5. avoid locking the most timing critical paths
   6. evaluate area, power, and timing overhead for each scheme
   7. test golden versus locked designs with realistic workloads
+
+![HWT can be inserted anywhere](/images/happy-chip-w-LL.jpg)
 
 ## 11. Tools and Frameworks
 
