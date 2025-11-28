@@ -21,8 +21,8 @@ I wanted a simple, foundational understanding of hardware Trojans before diving 
 ## 2. What Problem the Paper Addresses
 As the semiconductor supply chain became global, chip designers increasingly relied on external foundries. This introduces two major concerns:
 
-1. malicious insertion of extra circuitry  
-2. untrusted modifications during fabrication  
+1. Malicious insertion of extra circuitry  
+2. Untrusted modifications during fabrication  
 
 The paper explains the fundamental questions:
 - What exactly is a hardware Trojan?  
@@ -49,7 +49,9 @@ Examples:
 - Leaking information  
 - Modifying internal signals  
 - Disabling functionality  
-- Changing chip behavior temporarily or permanently  
+- Changing chip behavior temporarily or permanently
+
+![HWT can be inserted anywhere](/images/HWT-trigger-payload.jpg)
 
 This section forms the basis for many detection techniques we use today.
 
@@ -103,7 +105,9 @@ The paper highlights several reasons:
 - Payloads can hide in unused logic  
 - Attackers know the design well  
 - Side-channel differences are tiny  
-- Golden “reference” chips may be unavailable  
+- Golden “reference” chips may be unavailable
+
+
 
 This is exactly why switching activity, power traces, and rare nets become important.
 
@@ -120,7 +124,9 @@ Challenge: triggers can be astronomically rare.
 Measure:
 - Power  
 - Timing  
-- EM emanations  
+- EM emanations
+
+![HWT can be inserted anywhere](/images/HWT-detection-power.jpg)
 
 And compare against known-good chips.  
 Challenge: process variation hides differences.
@@ -143,6 +149,8 @@ The paper gives a balanced overview, which is perfect for building intuition.
 ## 8. What I Found Interesting
 The paper highlights a key insight:  
 **The best Trojans target rare signals because they hide inside normal design noise.**
+
+![HWT can be inserted anywhere](/images/HWT-trigger-payload.jpg)
 
 This directly connects to my current work, where I compare switching activity across designs and observe how Trojans modify toggle patterns, especially on rare nets.
 
@@ -168,19 +176,6 @@ By understanding the basics from this survey, it becomes much easier to apprecia
 - Anti-SAT  
 - Switching activity restriction  
 - Structural similarity attacks  
-
----
-
-## 10. My Diagrams (Suggested)
-To make the summary visually clear, I plan to draw:
-
-- Trigger + payload block diagram  
-- Rare net triggering example  
-- Power trace deviation sketch  
-- SoC design cycle with Trojan insertion points  
-- Simple combinational vs sequential Trojan difference  
-
-These will also work great for LinkedIn and Medium.
 
 ---
 
