@@ -5,9 +5,10 @@ permalink: /paper-summaries/survey-hardware-trojans/
 ---
 
 
-# Paper Summary: A Survey on Hardware Trojans  
+# Paper Summary 
+**Paper:** "A Survey on Hardware Trojans"  
 **Authors:** Mohammad Tehranipoor and Farinaz Koushanfar  
-**Published:** IEEE Design & Test of Computers, 2010
+**Source:** IEEE Design & Test of Computers, 2010  
 
 This is one of the earliest and clearest overview papers on hardware Trojans. It explains the basic terminology, Trojan structures, insertion points, and detection challenges. It is a great starting point before reading more advanced research.
 
@@ -185,6 +186,4 @@ This survey is the perfect starting point for anyone entering hardware security.
 This summary will serve as the foundation for future deep dives into specific attack and detection techniques.
 
 ---
-**Paper:** "A Survey on Hardware Trojans"  
-**Authors:** Mohammad Tehranipoor and Farinaz Koushanfar  
-**Source:** IEEE Design & Test of Computers, 2010  
+
