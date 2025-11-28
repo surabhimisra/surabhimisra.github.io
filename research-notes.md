@@ -15,7 +15,8 @@ These are based only on public research and open-source benchmarks.
 
 A foundational overview of hardware Trojans, triggers, payloads, insertion points, and detection challenges.
 
-👉 <a href="/paper-summaries/2025-11-27-hardware-tojans-survey-paper-summary.md" target="_blank">Read the summary</a>
+👉 <a href="/paper-summaries/survey-hardware-trojans/" target="_blank">Read the summary</a>
+
 
 ---
 
