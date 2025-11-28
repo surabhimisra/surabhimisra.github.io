@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Survey: A Survey on Hardware Trojans"
+permalink: /paper-summaries/survey-hardware-trojans/
+---
+
+
 # Paper Summary: A Survey on Hardware Trojans  
 **Authors:** Mohammad Tehranipoor and Farinaz Koushanfar  
 **Published:** IEEE Design & Test of Computers, 2010
