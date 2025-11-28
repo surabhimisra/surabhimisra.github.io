@@ -7,10 +7,14 @@ Most people are familiar with software malware and phishing, but there is a quie
 
 The key idea is simple. The original design is correct, but an extra piece of logic is inserted that only activates under rare conditions. Under normal tests, the chip seems fine. Under a special trigger, that extra logic can leak data, change outputs, or weaken security checks.
 
+![HWT can be inserted anywhere](/images/HWT-trigger-payload.jpg)
+
 In practice, a hardware Trojan often has two parts:
 
 1. A trigger that watches for a rare event, such as a specific input pattern or internal state.  
 2. A payload that changes behavior, for example by flipping a bit, opening a backdoor, or bypassing a check.
+
+![HWT can be inserted anywhere](/images/HWT-trigger-payload-state-diagram.jpg)
 
 Because the trigger is rarely activated, normal testing and functional verification may never see the Trojan fire. This is what makes these attacks interesting and hard to catch.
 
