@@ -21,12 +21,20 @@ A foundational overview of hardware Trojans, triggers, payloads, insertion point
 
 ### 2. Sensitivity Analysis to Hardware Trojan Using Power Supply Transient Signals
 
-A study on how tiny, high-frequency power supply spikes caused by Trojan switching can reveal malicious logic, even when the payload never activates.  
+A study on how tiny, high-frequency power supply spikes caused by Trojan switching can reveal malicious logic even when the payload never activates.  
 Covers transient signatures, sensitivity analysis, PDN effects, and the strengths and limitations of this approach.
 
 👉 <a href="/paper-summaries/transient-power-trojan-detection/" target="_blank">Read the summary</a>
 
 ---
 
-More summaries coming soon.
+### 3. Restricting Switching Activity Using Logic Locking to Improve Power Analysis-Based Trojan Detection
 
+Explores how logic locking reshapes internal switching patterns in a circuit and unintentionally makes hardware Trojans more detectable through power analysis.  
+Shows how locked circuits have less switching noise, making Trojan-triggered switching easier to isolate and measure.
+
+👉 <a href="/paper-summaries/restricting-switching-activity/" target="_blank">Read the summary</a>
+
+---
+
+More summaries coming soon.
