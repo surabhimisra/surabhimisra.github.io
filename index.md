@@ -79,10 +79,7 @@ title: "Home"
     See all talks on the <a href="/talks" style="text-decoration: underline;">Talks page</a>.
   </p>
 
-  <p style="font-size: 0.95rem; margin-top: 0.4rem;">
-    Read my GHC 2026 session proposal here:  
-    <a href="/ghc2026" style="text-decoration: underline;">GHC 2026 Talk</a>
-  </p>
+ 
 </section>
 
 
