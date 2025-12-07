@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding Rare Nets and Why Trojans Love Them"
 permalink: /rare-nets-hardware-trojans/
-date: 2025-11-30
+date: 2025-12-07
 ---
 
 # Understanding Rare Nets and Why Trojans Love Them
@@ -140,7 +140,7 @@ end
 I will be publishing these experiments in my GitHub repository soon.
 
 If you’re interested in hardware Trojans, switching activity, or logic locking, follow my Research Notes section here:
-👉 https://surabhimisra.github.io/research/
+👉 [research notes](https://surabhimisra.github.io/research/)
 
 Thanks for reading!
 Feel free to reach out if you have questions or want a post on a specific topic.
