@@ -11,10 +11,10 @@ I have presented technical topics across industry, university coursework, and st
 
 ## Industry Presentations (Cisco)
 
-### ASIC Internship Final Presentation  (May 2023)
+### ASIC Internship Final Presentation (May 2023)
 Presented my end of internship technical summary to the ASIC design and verification team. Covered RTL work, debugging, and project outcomes.
 
-### RJ45++ Innovation Challenge Presentation (Sep 2023)  
+### RJ45++ Innovation Challenge Presentation (Sep 2023)
 Presented an architecture and design innovation proposal to a panel of engineering judges as part of the Cisco RJ45++ challenge.
 
 ### Cisco Book Club Moderator (Sep 2025)
@@ -24,38 +24,30 @@ Moderated an internal book club discussion with participation from different tea
 
 ## Academic Presentations (USC)
 
-### Logic Locking Midterm Presentation  (Sep 2022)
+### Logic Locking Midterm Presentation (Sep 2022)
 Presented midterm progress on my logic locking and hardware Trojan project. Focused on basic locking ideas and early experiments.
 
-### Logic Locking Final Presentation  (Nov 2022)
+### Logic Locking Final Presentation (Nov 2022)
 Delivered the final project presentation on logic locking, switching activity observations, and Trojan concepts.
 
-### Research Paper Presentation: Ariadne  (Oct 2022)
+### Research Paper Presentation: Ariadne (Oct 2022)
 Presented the paper “Ariadne: Dominance Checking of Nonlinear Hybrid Automata Using Reachability Analysis.” Explained the problem setup, key ideas, and results.
 
-### Cardinal NoC Router and Processor  (Nov 2022)
+### Cardinal NoC Router and Processor (Nov 2022)
 Presented the Verilog based architecture and design of the Cardinal NoC Router and Cardinal Processor as part of Team 29 under Professor Moe Tabar.
 
-### Integrated Memory Devices and Technology  (Mar 2022)
+### Integrated Memory Devices and Technology (Mar 2022)
 Presented course material related to memory device behavior, cell structure, and technology considerations. Slides not available.
 
 ---
 
 ## Community Speaking
 
-### USC Society of Women Engineers  
-Guest speaker (Dec 4, 2025).  
-Spoke about pathways into ASIC design, transitioning from USC to industry, and an introduction to hardware Trojans.  
-Slides and recap will be added after the session.
+### USC Society of Women Engineers Panel  
+Panel speaker (Dec 4, 2025).  
+Participated in an alumni panel with other USC SWE graduates to discuss internships, transitioning from USC to industry, early career growth, and what ASIC design work looks like in practice.  
+This was a live conversation-based session. No slides were used.
 
 ---
 
-
-## GHC 2026 Proposal
-
-You can read my proposed session for GHC 2026 here:  
-👉 [GHC 2026 Talk Page](/ghc2026)
-
----
-
-More talks and recordings will be added as I continue sharing technical and career learning material.
+More talks, panels, and speaking engagements will be added as I continue sharing technical and career learning material.
