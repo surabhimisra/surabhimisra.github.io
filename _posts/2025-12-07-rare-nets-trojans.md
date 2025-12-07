@@ -136,7 +136,7 @@ end
   - Transient power signatures
   - Structural Trojan detection
   - Logic locking + Trojan interactions
-
+---
 I will be publishing these experiments in my GitHub repository soon.
 
 If you’re interested in hardware Trojans, switching activity, or logic locking, follow my Research Notes section here:
