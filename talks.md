@@ -31,7 +31,7 @@ Presented midterm progress on my logic locking and hardware Trojan project. Focu
 Delivered the final project presentation on logic locking, switching activity observations, and Trojan concepts.
 
 ### Research Paper Presentation: Ariadne (Oct 2022)
-Presented the paper “Ariadne: Dominance Checking of Nonlinear Hybrid Automata Using Reachability Analysis.” Explained the problem setup, key ideas, and results.
+Presented the key ideas of paper “Ariadne: Dominance Checking of Nonlinear Hybrid Automata Using Reachability Analysis.” Explained the problem setup, key ideas of the authors, and results.
 
 ### Cardinal NoC Router and Processor (Nov 2022)
 Presented the Verilog based architecture and design of the Cardinal NoC Router and Cardinal Processor as part of Team 29 under Professor Moe Tabar.
