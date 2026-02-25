@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Recent Trends in Hardware Security – The Shift from Logic to Architecture"
+title: "Recent Trends in Hardware Security: The Shift from Logic to Architecture"
 date: 2026-02-24
 categories: hardware-security silicon architecture
 ---
